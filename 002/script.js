@@ -42,8 +42,3 @@ function verificarIdade(){
         document.body.getElementsByTagName('main')[0].appendChild(divMsg)
     }
 }
-
-function limparTela(){
-    divMsg.style.display = 'none'
-    divMsg.innerHTML = ''
-}
