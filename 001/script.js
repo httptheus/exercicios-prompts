@@ -1,4 +1,4 @@
-//#001 - Calculadora - Criar interface de botões e área de saída do resultado dos cálculos de um número.
+//#001 - Calculadora - Criar interface de botões e área de saída do resultado dos cálculos de um número. //
 
 function isNumeroNaN(num1, num2){
     if (isNaN(num1) == true || isNaN(num2) == true){
