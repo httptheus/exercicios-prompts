@@ -1,0 +1,62 @@
+::selection{
+    color: white;
+    background-color: black;
+}
+
+:root{
+    font-family: monospace;
+}
+
+body{
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, blue, turquoise);
+}
+
+main{
+    width: 200px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+}
+
+main h3{
+    text-align: center;
+}
+
+main section img{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+section input{
+    cursor: pointer;
+    width: 140px;
+    padding: 8px;
+    margin: 10px;
+    border: 1.5px solid deeppink;
+    border-radius: 10px;
+    color: white;
+    font-family: monospace;
+    background-color: deeppink;
+}
+
+section input:hover{
+    background-color: black;
+    border: 1.5px solid black;
+}
+
+section input:active{
+    background-color: white;
+    border: 1.5px solid black;
+    color: black;
+}
