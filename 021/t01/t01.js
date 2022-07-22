@@ -1,3 +1,8 @@
+/*#021 - Dado - Crie uma interface web 
+que, aleatoriamente, traga um número 
+de 1 a 6. Realize este exercício 
+utilizando os conceitos de Arrays.*/
+
 let btnRolar = document.querySelector('#btnRolar')
 
 let imgDado = document.querySelector('#imgDado')
